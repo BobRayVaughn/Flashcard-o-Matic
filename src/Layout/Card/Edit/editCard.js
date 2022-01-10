@@ -3,7 +3,7 @@ import {useParams, useHistory} from "react-router-dom"
 import {readDeck, readCard, updateCard} from "../../../utils/api/index"
 
 import editCardNB from "./editCardNB"
-import CardForm from "../cardForm"
+import cardForm from "../cardForm"
 
 export default function EditCard() {
     const [deck, setDeck] = useState({});
@@ -41,7 +41,7 @@ export default function EditCard() {
 
     return(
         <div>
-            <EditCardNavBar 
+            <editCardNB 
             deckName={deck.name}
             Id={deckId}
             cardId={cardId}
@@ -50,7 +50,7 @@ export default function EditCard() {
             <h1>Edit Card</h1>
             
             <form onSubmit={handleEditCardSubmit}>
-                <CardForm cardFront={cardFront}
+                <cardForm cardFront={cardFront}
                 handleFrontChange={handleFrontChange}
                 cardBack={cardBack}
                 handleBackChange={handleBackChange}
