@@ -14,8 +14,7 @@ export default function EditCard() {
     const deckId = useParams().deckId;
     const cardId = useParams().cardId;
     const history = useHistory();
-
-    //pulls api data, and sets into different states.
+    
     useEffect(() =>{
         async function loadDeck() {
             const deckData = await readDeck(deckId)
