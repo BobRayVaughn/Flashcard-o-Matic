@@ -1,0 +1,73 @@
+.jumbotron{
+    background-color: #476A6F;
+}
+
+.bg-dark{
+    background-color: #476A6F!important;
+}
+
+.jumbotron h1{
+    background-color: #476A6F;
+    color: #f2af29;
+    font-family: "Monaco", monospace;
+}
+
+.jumbotron p{
+    color: #bc9ec1;
+    font-family: "Monaco", monospace;
+}
+
+body{
+    background-color: #e0e0ce;
+}
+
+body h1{
+    color: #ad343e;
+    font-family: "Monaco", monospace;
+}
+
+.btn-danger{
+    background-color: #ad343e;
+}
+
+.btn-secondary{
+    background-color: #ad343e;
+}
+
+h2{
+    color: #ad343e;
+    font-family: "Monaco", monospace;
+    padding-top: 5px;
+}
+
+
+
+.breadcrumb-item a{
+    color: #f2af29;
+    background-color: #476A6F;
+
+}
+
+nav{
+    background-color: #476A6F;
+}
+
+.breadcrumb{
+    background-color: #476A6F;
+
+}
+
+.breadcrumb-item.active{
+    color: #bc9ec1;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #ad343e;
+    content: "/";
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #f2af29;
+    border-color: #f2af29;
+}
