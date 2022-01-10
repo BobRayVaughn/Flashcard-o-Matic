@@ -2,8 +2,8 @@ import React, {useEffect, useState} from "react"
 import {useParams, useHistory} from "react-router-dom"
 import {readDeck, readCard, updateCard} from "../../../utils/api/index"
 
-import EditCardNavBar from "./EditCardNavBar"
-import CardForm from "../CardForm"
+import editCardNB from "./editCardNB"
+import CardForm from "../cardForm"
 
 export default function EditCard() {
     const [deck, setDeck] = useState({});
